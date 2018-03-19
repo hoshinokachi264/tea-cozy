@@ -86,6 +86,8 @@ h2, h3, h4 {
 #mission {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 70px;
 }
 #mission .content {
@@ -127,6 +129,7 @@ p {
 #locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   padding-top: 70px;
 }
