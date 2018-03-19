@@ -1,4 +1,4 @@
-                                    /*Header*/
+                        /*Header*/
 
 header {
   width: 100%;
@@ -31,7 +31,7 @@ header img {
   justify-content: center;
   /*flex-wrap: wrap;*/
 }
-                                  /*Main Content*/
+                          /*Main Content*/
 body {
   display: block;
   margin: 0;
@@ -41,7 +41,7 @@ body {
   font-size: 22px;
 }
 div {
-    display: block;
+  display: block;
 }
 h2 {
   display: block;
@@ -50,11 +50,26 @@ h2 {
   margin-after: 0.83em;
   font-weight: bold;
 }
+h4 {
+  display: block;
+  margin-before: 1.33em;
+  margin-after: 1.33em;
+  margin-start: 0px;
+  margin-end: 0px;
+  font-weight: bold;
+}
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
   text-align: center;
 }
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+                  /*Mission Statement*/
 #mission {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -70,15 +85,19 @@ h2, h3, h4 {
   justify-content: center;
   flex-wrap: wrap;
 }
-.main {
-  padding-top: 69px;
-  opacity: 0.9;
-  width: 1200px;
-  margin: auto;
-}
+                  /*Store*/
 .item span {
   display: block;
   padding: 5px;
   font-weight: bold;
   text-align: center;
+}
+.item img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+}
+.item {
+  padding: 5px;
 }
