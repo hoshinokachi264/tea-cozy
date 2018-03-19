@@ -63,6 +63,15 @@ h4 {
   margin-end: 0px;
   font-weight: bold;
 }
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-before: 1.67em;
+  margin-after: 1.67em;
+  margin-start: 0px;
+  margin-end: 0px;
+  font-weight: bold;
+}
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
@@ -90,6 +99,12 @@ h2, h3, h4 {
   flex-wrap: wrap;
 }
                   /*Store*/
+#store {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
 .item span {
   display: block;
   padding: 5px;
@@ -132,4 +147,13 @@ p {
   justify-content: center;
   padding: 10px;
   margin: 5px 20px;
+}
+                  /*Contact*/
+#contact {
+    height: 200px;
+}
+                  /*Footer*/
+footer {
+    text-align: left;
+    padding-left: 20px;
 }
